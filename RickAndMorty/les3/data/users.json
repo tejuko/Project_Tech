@@ -1,0 +1,17 @@
+[
+  {
+    "username": "jan",
+    "age": 21,
+    "bio": "Houdt van voetbal en pizza"
+  },
+  {
+    "username": "sarah",
+    "age": 19,
+    "bio": "Fan van muziek en reizen"
+  },
+  {
+    "username": "alex",
+    "age": 23,
+    "bio": "Gamer en programmeur"
+  }
+]
