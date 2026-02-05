@@ -63,6 +63,11 @@ header p {
   font-weight: 600;
 }
 
+/* Back Button */
+#back-btn {
+  display: none;
+}
+
 /* Character Grid */
 #characters {
   padding: 2rem 1rem;
