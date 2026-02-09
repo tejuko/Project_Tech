@@ -48,7 +48,23 @@ app.get('/profile/:username', (req, res) => {
     return res.status(404).send('Gebruiker niet gevonden');
   }
 
-  res.sendFile(__dirname + '/views/profile.html')
+  res.send(`
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Profiel van ${user.username}</title>
+      <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+      <div class="profile-card">
+        <h1>${user.username}</h1>
+        <p><strong>Leeftijd:</strong> ${user.age}</p>
+        <p><strong>Bio:</strong> ${user.bio}</p>
+        <a href="/" class="back-button">Terug naar home</a>
+      </div>
+    </body>
+    </html>
+  `);
 });
 
 // 404
@@ -64,4 +80,3 @@ app.listen(port, () => {
 app.get('/users', (req, res) => {
   res.json(users)
 })
-
