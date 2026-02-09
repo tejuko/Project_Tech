@@ -13,5 +13,35 @@
     "username": "alex",
     "age": 23,
     "bio": "Gamer en programmeur"
+  },
+  {
+    "username": "emma",
+    "age": 20,
+    "bio": "Liefhebber van kunst en mode"
+  },
+  {
+    "username": "michael",
+    "age": 22,
+    "bio": "Sportliefhebber en foodie"
+  },
+  {
+    "username": "lisa",
+    "age": 18,
+    "bio": "Boekenwurm en natuurliefhebber"
+  },
+  {
+    "username": "david",
+    "age": 24,
+    "bio": "Tech enthousiast en reiziger"
+  },
+  {
+    "username": "sophie",
+    "age": 21,  
+    "bio": "Fotograaf en dierenliefhebber"
+  },
+  {
+    "username": "tess",
+    "age": 23,
+    "bio": "Student en creatieveling"
   }
 ]
